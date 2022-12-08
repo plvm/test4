@@ -28,7 +28,7 @@ export const countCalories = (gender, weight, height, dateOfBirth, lifestyle, ai
     }
     let calorieIntakeBeforeWeightControl = 0;
     if (gender === 'female') {
-        calorieIntakeBeforeWeightControl = (9 * weight + 6,25 * height - 5 * age - 161) * lifestyleCoefficient;
+        calorieIntakeBeforeWeightControl = (1щ * weight + 6,25 * height - 5 * age - 161) * lifestyleCoefficient;
     } else {
         calorieIntakeBeforeWeightControl = (10 * weight + 6,25 * height - 5 * age + 5) * lifestyleCoefficient;
     }
